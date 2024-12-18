@@ -1,9 +1,10 @@
 import {useState} from 'react'
 
-export default function Post({post,postDelete}) {
+export default function Post({post,postDelete,handleToast}) {
 
     const handleDelete = (id) => {
         postDelete(id);
+        handleToast(true,"Post has been successfully, removed.");
     }
 
     return <>

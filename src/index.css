@@ -16,7 +16,7 @@
     }
 
     .card-description {
-        @apply mb-3 mt-2 font-normal text-gray-700 dark:text-gray-400;
+        @apply mb-3 mt-2 font-normal text-gray-700 dark:text-gray-400 min-h-32 max-h-32 overflow-y-hidden;
     }
 
     .card-img {
